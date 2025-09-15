@@ -57,7 +57,7 @@ MainTab.Button({
         local localPlayer = Players.LocalPlayer
         
         if localPlayer.PlayerGui:FindFirstChild("UITemplates") and localPlayer.PlayerGui.UITemplates:FindFirstChild("donationPopup") then
-            local donationText = targetPlayerName.." YOU DONATED "..formatNumber(robuxAmount)  local donationText = targetPlayerName....
+           " YOU DONATED TO"..formatNumber(robuxAmount)  local donationText = targetPlayerName....
             
             local ScreenGui = localPlayer.PlayerGui:FindFirstChild("ScreenGui")
             if not ScreenGui then
